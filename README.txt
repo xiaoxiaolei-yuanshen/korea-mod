@@ -1,46 +1,137 @@
 
-Source installation information for modders
--------------------------------------------
-This code follows the Minecraft Forge installation methodology. It will apply
-some small patches to the vanilla MCP source code, giving you and it access 
-to some of the data and functions you need to build a successful mod.
+## 模组功能总览
 
-Note also that the patches are built against "un-renamed" MCP source code (aka
-SRG Names) - this means that you will not be able to read them directly against
-normal code.
+### 🛡️ 装备系统
 
-Setup Process:
-==============================
+#### 太阳套装 (Sun Armor)
+- **潮流平壤大平头** 
+- **特色平壤顶好西装** 
+- **老字号平壤西装裤** 
+- **正宗温州进口大皮鞋** 
 
-Step 1: Open your command-line and browse to the folder where you extracted the zip file.
+**特性**: 全套太阳装备具有特殊效果：
+- 生物跳跃时触发音乐播放
+- 敌对生物自动攻击玩家
+- 守卫者(Warden)会受到持续伤害
+- 东北雨姐实体也会受到特殊影响
 
-Step 2: You're left with a choice.
-If you prefer to use Eclipse:
-1. Run the following command: `./gradlew genEclipseRuns`
-2. Open Eclipse, Import > Existing Gradle Project > Select Folder 
-   or run `gradlew eclipse` to generate the project.
+#### 空输套装 (Air Drop Armor)
+- 空输头盔、胸甲、护腿、靴子
+- 金质装备，防御属性略低于太阳套装
 
-If you prefer to use IntelliJ:
-1. Open IDEA, and import project.
-2. Select your build.gradle file and have it import.
-3. Run the following command: `./gradlew genIntellijRuns`
-4. Refresh the Gradle Project in IDEA if required.
+---
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can 
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-(this does not affect your code) and then start the process again.
+### ⚔️ 武器系统
 
-Mapping Names:
-=============================
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license, if you do not agree with it you can change your mapping names to other crowdsourced names in your 
-build.gradle. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/MinecraftForge/MCPConfig/blob/master/Mojang.md
+| 武器名称 | 描述 |
+|---------|------|
+| **带血重型钢棍** | 钢棍剑 |
+| **棒子** | 木棍武器 |
+| **大汗脚** | 特殊武器 |
 
-Additional Resources: 
-=========================
-Community Documentation: https://docs.minecraftforge.net/en/1.20.1/gettingstarted/
-LexManos' Install Video: https://youtu.be/8VEdtQLuLO0
-Forge Forums: https://forums.minecraftforge.net/
-Forge Discord: https://discord.minecraftforge.net/
+---
+
+### 🍜 食物系统
+
+#### 韩国料理食物
+| 物品 | 效果 |
+|------|------|
+| 韩式火鸡面 | 给予"辣"效果 |
+| 泡菜 | 给予"辣"效果 |
+| 辣酱 | 给予"辣"效果 |
+| 腌制鸡肉 | 可腌制保存 |
+| 韩式炸鸡 | 可烹饪/烟熏 |
+| 鸡蛋面 | 普通食物 |
+| 鸡肉蘑菇面 | 普通食物 |
+| 牛肉胡萝卜面 | 普通食物 |
+| 咸鱼海带面 | 普通食物 |
+| 酸菜 | 来自酸菜方块 |
+
+#### 特殊食物效果
+- **辣效果 (SpicyEffect)**: 橙红色粒子，持续造成魔法伤害，每秒扣除0.5点生命值
+
+---
+
+### 🏺 方块系统
+
+| 方块名称 | 功能 |
+|---------|------|
+| **腌制缸 (Kimchi Jar)** | 可交互容器方块，支持GUI界面，用于腌制物品，带有JEI配方整合 |
+| **酸菜块 (Sour Cabbage Block)** | 储存酸菜的方块 |
+
+---
+
+### 👤 生物实体
+
+| 实体名称 | 描述 |
+|---------|------|
+| **脱北者 (North Korean Refugee)** | 可生成的友好/敌对NPC，受太阳套装影响 |
+| **东北雨姐 (Northeast Rain Sister)** | 特殊实体，受太阳套装影响 |
+| **部队火锅投掷物** | 可投掷的实体 |
+| **紫蛋投掷物** | 可投掷的紫色蛋 |
+
+---
+
+### 🎵 音效系统
+
+- **万岁音效**: `wansui01`, `wansui02`
+- **讽刺播报曲**: `niruosandong` 及其DJ版本
+- **东北雨姐音效**: `dadongbei`
+
+---
+
+### 🎨 特殊功能
+
+#### 恩情模式 (Gratitude Mode)
+- 通过按键触发，显示特殊文案
+- 文案列表包含各种讽刺/幽默内容
+- 可控制生物跳跃行为
+
+#### 忠诚模式 (Loyalty Mode)
+- 另一个游戏内效果开关
+
+#### 其他可切换功能
+- 🔊 音乐播放开关
+- 💀 敌对生物死亡开关
+- 🦘 生物朝向玩家跳跃
+- ✨ 发光效果与村庄英雄
+
+---
+
+### 🔧 附魔系统
+
+| 附魔名称 | 描述 |
+|---------|------|
+| **棍母 (Gun Mu)** | 增加攻击伤害 |
+
+---
+
+### 🏠 村民职业
+
+| 职业名称 | 描述 |
+|---------|------|
+| **泡菜师 (Kimchi Maker)** | 自定义村民职业，有对应的工作站点和交易配方 |
+
+---
+
+### 🎴 画作系统
+
+- **大将军画像** (dajiangjunhua)
+- **二将军画像** (erjiangjunhua)
+- **三将军画像** (sanjiangjunhua)
+
+---
+
+### ⚙️ 配置系统
+
+- 自定义设置菜单 (ModSettingsScreen)
+- 支持多种语言：中文(简体/繁体)、英文、韩文等
+
+---
+
+### 📦 配方类型
+
+- **合成配方**: 装备、食物、方块等
+- **熔炼配方**: 韩式炸鸡
+- **烟熏配方**: 韩式炸鸡
+- **工作台配方**: 泡菜缸、太阳之光等
