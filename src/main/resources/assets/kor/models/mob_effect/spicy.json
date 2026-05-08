@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:mob_effect/default",
+  "textures": {
+    "layer0": "kor:mob_effect/spicy"
+  }
+}

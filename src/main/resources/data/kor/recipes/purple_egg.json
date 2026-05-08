@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "PEP",
+    "LCL"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:purple_dye"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    },
+    "C": {
+      "item": "minecraft:lava_bucket"
+    },
+    "L": {
+      "item": "minecraft:end_crystal"
+    }
+  },
+  "result": {
+    "item": "kor:purple_egg",
+    "count": 1
+  }
+}

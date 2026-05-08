@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "kor:pickled_chicken"
+  },
+  "result": "kor:korean_fried_chicken",
+  "experience": 0.35,
+  "cookingtime": 100
+}

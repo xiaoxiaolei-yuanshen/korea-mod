@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "KHK",
+    "BDB",
+    "BBB"
+  ],
+  "key": {
+    "K": {
+      "item": "kor:spicy_kimchi"
+    },
+    "H": {
+      "item": "minecraft:sea_pickle"
+    },
+    "B": {
+      "item": "minecraft:brown_dye"
+    },
+    "D": {
+      "item": "minecraft:diamond_helmet"
+    }
+  },
+  "result": {
+    "item": "kor:air_drop_helmet",
+    "count": 1
+  }
+}

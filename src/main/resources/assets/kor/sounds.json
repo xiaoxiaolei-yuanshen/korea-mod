@@ -1,0 +1,74 @@
+{
+  "niruosandong": {
+    "sounds": [
+      {
+        "name": "kor:niruosandong",
+        "stream": true
+      }
+    ]
+  },
+  "niruosandongdj": {
+    "sounds": [
+      {
+        "name": "kor:niruosandongdj",
+        "stream": true
+      }
+    ]
+  },
+  "niruosandongdjsu": {
+    "sounds": [
+      {
+        "name": "kor:niruosandongdjsu",
+        "stream": true
+      }
+    ]
+  },
+  "niruosandongchaoxian": {
+    "sounds": [
+      {
+        "name": "kor:niruosandongchaoxian",
+        "stream": true
+      }
+    ]
+  },
+  "niruosandongteto": {
+    "sounds": [
+      {
+        "name": "kor:niruosandongteto",
+        "stream": true
+      }
+    ]
+  },
+  "gzpn": {
+    "sounds": [
+      {
+        "name": "kor:gzpn",
+        "stream": true
+      }
+    ]
+  },
+  "wansui01": {
+    "sounds": [
+      {
+        "name": "kor:wansui01",
+        "stream": false
+      }
+    ]
+  },
+  "wansui02": {
+    "sounds": [
+      {
+        "name": "kor:wansui02",
+        "stream": false
+      }
+    ]
+  },
+  "act_on_behalf": {
+    "sounds": [
+      {
+        "name": "kor:act_on_behalf",
+        "stream": false
+      }
+    ]
+  }
+}

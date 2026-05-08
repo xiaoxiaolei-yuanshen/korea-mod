@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S",
+    "E"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "E": {
+      "item": "minecraft:enchanted_book"
+    }
+  },
+  "result": {
+    "item": "kor:wood_stick_wood",
+    "count": 1
+  }
+}

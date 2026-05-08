@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:entity/villager/villager_librarian",
+  "textures": {
+    "profession": "kor:textures/entity/villager/profession/kimchi_maker"
+  }
+}

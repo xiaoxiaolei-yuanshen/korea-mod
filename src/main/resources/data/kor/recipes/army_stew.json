@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FRB",
+    "SCD",
+    "YXZ"
+  ],
+  "key": {
+    "F": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "R": {
+      "item": "minecraft:cod"
+    },
+    "B": {
+      "item": "minecraft:cooked_beef"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "C": {
+      "item": "minecraft:dried_kelp"
+    },
+    "D": {
+      "item": "minecraft:red_mushroom"
+    },
+    "Y": {
+      "item": "minecraft:carrot"
+    },
+    "X": {
+      "item": "minecraft:cauldron"
+    },
+    "Z": {
+      "item": "minecraft:potato"
+    }
+  },
+  "result": {
+    "item": "kor:army_stew",
+    "count": 1
+  }
+}

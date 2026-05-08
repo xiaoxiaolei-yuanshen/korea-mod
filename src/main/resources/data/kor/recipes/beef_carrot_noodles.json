@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  c",
+    "wwh",
+    " b "
+  ],
+  "key": {
+    "w": {
+      "item": "minecraft:wheat"
+    },
+    "c": {
+      "item": "minecraft:cooked_beef"
+    },
+    "h": {
+      "item": "minecraft:carrot"
+    },
+    "b": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "kor:beef_carrot_noodles",
+    "count": 1
+  }
+}

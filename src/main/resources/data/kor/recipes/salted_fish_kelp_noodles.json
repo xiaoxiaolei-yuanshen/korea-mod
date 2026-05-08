@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  f",
+    "wwk",
+    " b "
+  ],
+  "key": {
+    "w": {
+      "item": "minecraft:wheat"
+    },
+    "f": {
+      "item": "minecraft:cod"
+    },
+    "k": {
+      "item": "minecraft:dried_kelp"
+    },
+    "b": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "kor:salted_fish_kelp_noodles",
+    "count": 1
+  }
+}

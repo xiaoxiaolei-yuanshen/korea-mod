@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "wwe",
+    " b "
+  ],
+  "key": {
+    "w": {
+      "item": "minecraft:wheat"
+    },
+    "e": {
+      "item": "minecraft:egg"
+    },
+    "b": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "kor:egg_noodles",
+    "count": 1
+  }
+}

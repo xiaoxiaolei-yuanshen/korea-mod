@@ -1,0 +1,114 @@
+{
+  "1": [
+    {
+      "disabled": false,
+      "inputs": [
+        {
+          "item": "minecraft:emerald",
+          "count": 3
+        }
+      ],
+      "outputs": [
+        {
+          "item": "kor:spicy_kimchi",
+          "count": 2
+        }
+      ],
+      "max_uses": 16,
+      "xp": 10
+    }
+  ],
+  "2": [
+    {
+      "disabled": false,
+      "inputs": [
+        {
+          "item": "minecraft:emerald",
+          "count": 1
+        }
+      ],
+      "outputs": [
+        {
+          "item": "minecraft:sea_pickle",
+          "count": 6
+        }
+      ],
+      "max_uses": 16,
+      "xp": 10
+    }
+  ],
+  "3": [
+    {
+      "disabled": false,
+      "inputs": [
+        {
+          "item": "minecraft:emerald",
+          "count": 2
+        }
+      ],
+      "outputs": [
+        {
+          "item": "kor:korean_fried_chicken",
+          "count": 1
+        }
+      ],
+      "max_uses": 12,
+      "xp": 20
+    }
+  ],
+  "4": [
+    {
+      "disabled": false,
+      "inputs": [
+        {
+          "item": "minecraft:emerald",
+          "count": 2
+        }
+      ],
+      "outputs": [
+        {
+          "item": "kor:sour_cabbage",
+          "count": 3
+        }
+      ],
+      "max_uses": 12,
+      "xp": 20
+    }
+  ],
+  "5": [
+    {
+      "disabled": false,
+      "inputs": [
+        {
+          "item": "minecraft:emerald",
+          "count": 8
+        }
+      ],
+      "outputs": [
+        {
+          "item": "kor:kimchi_jar",
+          "count": 1
+        }
+      ],
+      "max_uses": 8,
+      "xp": 30
+    },
+    {
+      "disabled": false,
+      "inputs": [
+        {
+          "item": "minecraft:emerald",
+          "count": 2
+        }
+      ],
+      "outputs": [
+        {
+          "item": "kor:hot_sauce",
+          "count": 1
+        }
+      ],
+      "max_uses": 16,
+      "xp": 30
+    }
+  ]
+}

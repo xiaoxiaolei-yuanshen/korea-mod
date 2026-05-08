@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "KPK",
+    "BKB",
+    "BDB"
+  ],
+  "key": {
+    "K": {
+      "item": "kor:spicy_kimchi"
+    },
+    "P": {
+      "item": "minecraft:porkchop"
+    },
+    "B": {
+      "item": "minecraft:brown_dye"
+    },
+    "D": {
+      "item": "minecraft:diamond_boots"
+    }
+  },
+  "result": {
+    "item": "kor:air_drop_boots",
+    "count": 1
+  }
+}

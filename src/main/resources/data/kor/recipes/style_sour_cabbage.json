@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    " S ",
+    "S S"
+  ],
+  "key": {
+    "S": {
+      "item": "kor:sour_cabbage_block"
+    }
+  },
+  "result": {
+    "item": "kor:style_sour_cabbage",
+    "count": 1
+  }
+}

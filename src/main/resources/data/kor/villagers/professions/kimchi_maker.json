@@ -1,0 +1,5 @@
+{
+  "name": "kor:kimchi_maker",
+  "workstation": "kor:kimchi_maker",
+  "sound_event": "minecraft:entity.villager.work.farmer"
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  h",
+    "wwc",
+    " b "
+  ],
+  "key": {
+    "h": {
+      "item": "kor:hot_sauce"
+    },
+    "w": {
+      "item": "minecraft:wheat"
+    },
+    "c": {
+      "item": "minecraft:cooked_chicken"
+    },
+    "b": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "kor:korean_fire_noodles",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BRB",
+    "BWB",
+    "NBN"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:brick"
+    },
+    "R": {
+      "tag": "minecraft:wooden_trapdoors"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    },
+    "N": {
+      "item": "minecraft:nether_brick"
+    }
+  },
+  "result": {
+    "item": "kor:kimchi_jar",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "KCK",
+    "KDK"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:brown_dye"
+    },
+    "K": {
+      "item": "kor:spicy_kimchi"
+    },
+    "C": {
+      "item": "minecraft:diamond_leggings"
+    },
+    "D": {
+      "item": "minecraft:brown_dye"
+    }
+  },
+  "result": {
+    "item": "kor:air_drop_leggings",
+    "count": 1
+  }
+}

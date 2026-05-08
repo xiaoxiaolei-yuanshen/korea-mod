@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "wwc",
+    " s "
+  ],
+  "key": {
+    "w": {
+      "item": "minecraft:wheat"
+    },
+    "c": {
+      "item": "minecraft:cooked_chicken"
+    },
+    "s": {
+      "item": "minecraft:mushroom_stew"
+    }
+  },
+  "result": {
+    "item": "kor:chicken_mushroom_noodles",
+    "count": 1
+  }
+}

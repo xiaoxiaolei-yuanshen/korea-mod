@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "KCK",
+    "BDB",
+    "BBB"
+  ],
+  "key": {
+    "K": {
+      "item": "kor:spicy_kimchi"
+    },
+    "C": {
+      "item": "minecraft:diamond_chestplate"
+    },
+    "B": {
+      "item": "minecraft:brown_dye"
+    },
+    "D": {
+      "item": "minecraft:sea_pickle"
+    },
+  "result": {
+    "item": "kor:air_drop_chestplate",
+    "count": 1
+  }
+}
+}

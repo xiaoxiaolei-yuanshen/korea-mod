@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "PCP",
+    "P P"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:porkchop"
+    },
+    "C": {
+      "item": "minecraft:netherite_leggings"
+    }
+  },
+  "result": {
+    "item": "kor:sun_leggings",
+    "count": 1
+  }
+}

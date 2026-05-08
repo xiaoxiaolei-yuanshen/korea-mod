@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "wnw",
+    "   "
+  ],
+  "key": {
+    "w": {
+      "item": "minecraft:nether_wart"
+    },
+    "n": {
+      "item": "minecraft:potion"
+    }
+  },
+  "result": {
+    "item": "kor:hot_sauce",
+    "count": 1
+  }
+}

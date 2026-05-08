@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "chs",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "c": {
+      "item": "minecraft:chicken"
+    },
+    "h": {
+      "item": "kor:hot_sauce"
+    },
+    "s": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "kor:pickled_chicken",
+    "count": 1
+  }
+}

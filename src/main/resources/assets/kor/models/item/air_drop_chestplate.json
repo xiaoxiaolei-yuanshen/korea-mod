@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "kor:item/air_drop_chestplate"
+  }
+}
